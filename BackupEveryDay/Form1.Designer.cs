@@ -114,6 +114,7 @@ namespace BackupEveryDay
             this.Controls.Add(this.labSource);
             this.Name = "FrmBackup";
             this.Text = "資料備份";
+            this.Shown += new System.EventHandler(this.FrmBackup_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
